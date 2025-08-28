@@ -53,6 +53,10 @@ The ingestion pipeline is the foundation of the RAG system.
 - **Context-Aware Generation**: The retrieved document chunks are combined with the rewritten query and a system prompt, and then passed to the `Gemini 1.5 Flash` model. The LLM generates a human-like answer based *only* on the provided context.
 - **Citation Analysis**: After generating the answer, the system analyzes it to identify which parts of the response correspond to which source documents. It then presents these sources as citations, providing transparency and allowing for further reading.
 
+## Demo Video 
+
+[![Demo Video](https://img.youtube.com/vi/6f86eFwac14/0.jpg)](https://www.youtube.com/watch?v=6f86eFwac14)
+
 ## Local Setup and Running
 
 Follow these instructions to set up and run the chatbot on your local machine.
