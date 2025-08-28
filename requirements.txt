@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+httpx
+trafilatura
+beautifulsoup4
+markdownify
+langchain-text-splitters
+langchain-core
+sentence-transformers
+qdrant-client
+pydantic
+tqdm
+numpy
+torch
+rank-bm25
+google-generativeai
+streamlit
